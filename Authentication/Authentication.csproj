@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json~RF10d69b.TMP" />
+    <None Remove="appsettings.json~RFf502a.TMP" />
+    <None Remove="Common\Enum.cs~RF297c182.TMP" />
+    <None Remove="Controllers\AuthenticationController.cs~RF2bcec28.TMP" />
+    <None Remove="Controllers\UserController.cs~RF2968e9f.TMP" />
+    <None Remove="Errors\APIError.cs~RF2060a2.TMP" />
+    <None Remove="Errors\APIError.cs~RF221901.TMP" />
+    <None Remove="Middleware\ErrorHandler.cs~RF15814f.TMP" />
+    <None Remove="Program.cs~RF28932d3.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.25.1" />
+  </ItemGroup>
+
+</Project>
